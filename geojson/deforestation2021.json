@@ -1,0 +1,134 @@
+[
+    {
+       "name_1":"Aceh",
+       "total":"5998"
+    },
+    {
+        "name_1":"Bali",
+        "total":"46"
+    },
+    {
+        "name_1":"Bangka Belitung",
+        "total":"1987"
+    },
+    {
+        "name_1":"Banten",
+        "total":"278"
+    },
+    {
+        "name_1":"Bengkulu",
+        "total":"2033"
+    },
+    {
+        "name_1":"Gorontalo",
+        "total":"512"
+    },
+    {
+        "name_1":"Jakarta Raya",
+        "total":"0"
+    },
+    {
+        "name_1":"Jambi",
+        "total":"20047"
+    },
+    {
+        "name_1":"Jawa Barat",
+        "total":"382"
+    },
+    {
+        "name_1":"Jawa Tengah",
+        "total":"207"
+    },
+    {
+        "name_1":"Jawa Timur",
+        "total":"143"
+    },
+    {
+        "name_1":"Kalimatan Selatan",
+        "total":"2029"
+     },
+     {
+         "name_1":"Kalimantan Barat",
+         "total":"10095"
+     },
+     {
+         "name_1":"Kalimantan Tengah",
+         "total":"21536"
+     },
+     {
+         "name_1":"Kalimantan Timur",
+         "total":"20924"
+     },
+     {
+         "name_1":"Kepulauan Riau",
+         "total":"482"
+     },
+     {
+         "name_1":"Lampung",
+         "total":"275"
+     },
+     {
+         "name_1":"Maluku",
+         "total":"1294"
+     },
+     {
+         "name_1":"Maluku Utara",
+         "total":"964"
+     },
+     {
+         "name_1":"Nusa Tenggara Barat",
+         "total":"3123"
+     },
+     {
+         "name_1":"Nusa Tenggara Timur",
+         "total":"1401"
+     },
+     {
+         "name_1":"Papua",
+         "total":"3551"
+    },
+    {
+        "name_1":"Papua Barat",
+        "total":"2030"
+     },
+     {
+         "name_1":"Riau",
+         "total":"1518"
+     },
+     {
+         "name_1":"Sulawesi Barat",
+         "total":"3691"
+     },
+     {
+         "name_1":"Sulawesi Selatan",
+         "total":"144"
+     },
+     {
+         "name_1":"Sulawesi Tengah",
+         "total":"2391"
+     },
+     {
+         "name_1":"Sulawesi Tenggara",
+         "total":"4188"
+     },
+     {
+         "name_1":"Sulawesi Utara",
+         "total":"108"
+     },
+     {
+         "name_1":"Yogyakarta",
+         "total":"0"
+     },
+     {
+         "name_1":"Sumatera Utara",
+         "total":"3339"
+     },
+     {
+         "name_1":"Sumatera Selatan",
+         "total":"2192"
+     },
+     {
+        "name_1":"Sumatera Barat",
+        "total":"6797"
+    }       
+] 

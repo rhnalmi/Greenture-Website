@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GREENTURE</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+        <!-- <script src="conn.js"></script> -->
+</head>
+
+<body>
+
+    <header style="background-color: #568203">
+        <!-- <a href="../index.html"><img src="../images/logo-1.png" alt="" width="200"></a> -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="../data.html">data</a></li>
+                <li><a href="index.html">order</a></li>
+                
+            </ul>
+        </nav>
+        <div class="fas fa-bars"></div>
+    </header>
+
+    <div id="check">
+        <div class="inner">
+            <h1 id="title"><img src="../images/logo-1.png" alt="" width="200"></h1>
+            <form >
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" id="nama" name="nama" placeholder="Raihan Almi" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="08123xxx" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Product</label>
+                    <select class="form-control" id="product">
+                        <option value="Rain Tree" name="rt">Rain Tree</option>
+                        <option value="Shea Tree" name="st">Shea Tree</option>
+                        <option value="Mangroove Tree" name="mt">Mangroove Tree</option>
+                        <option value="Mahony Tree" name="mh">Mahony Tree</option>
+                   </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Provinsi</label>
+                    <select class="form-control" id="province" name="province">
+                        <option value="Aceh" name="ac">Aceh</option>
+                        <option value="Bali" name="bl">Bali</option>
+                        <option value="Bangka Belitung" name="bb">Bangka Belitung</option>
+                        <option value="Banten" name="bt">Banten</option>
+                        <option value="Bengkulu" name="bk">Bengkulu</option>
+                        <option value="Gorontalo" name="gt">Gorontalo</option>
+                        <option value="Jakarta Raya" name="jr">Jakarta Raya</option>
+                        <option value="Jambi" name="jb">Jambi</option>
+                        <option value="Jawa Barat" name="jwbr">Jawa Barat</option>
+                        <option value="Jawa Tengah" name="jwtg">Jawa Tengah</option>
+                        <option value="Jawa Timur" name="jwtm">Jawa Timur</option>
+                        <option value="Kalimatan Selatan" name="kls">Kalimatan Selatan</option>
+                        <option value="Kalimantan Barat" name="klb">Kalimantan Barat</option>
+                        <option value="Kalimantan Tengah" name="klt">Kalimantan Tengah</option>
+                        <option value="Kalimantan Timur" name="kltm">Kalimantan Timur</option>
+                        <option value="Kalimantan Utara" name="klu">Kalimantan Utara</option>
+                        <option value="Lampung" name="lp">Lampung</option>
+                        <option value="Maluku" name="ml">Maluku</option>
+                        <option value="Maluku Utara" name="mlu">Maluku Utara</option>
+                        <option value="Nusa Tenggara Barat" name="ntb">Nusa Tenggara Barat</option>
+                        <option value="Nusa Tenggara Timur" name="ntt">Nusa Tenggara Timur</option>
+                        <option value="Papua" name="pp">Papua</option>
+                        <option value="Papua Barat" name="pb">Papua Barat</option>
+                        <option value="Kepulauan Riau" name="kr">Kepulauan Riau</option>
+                        <option value="Sulawesi Barat" name="slb">Sulawesi Barat</option>
+                        <option value="Sulawesi Selatan" name="sls">Sulawesi Selatan</option>
+                        <option value="Sulawesi Tengah" name="slt">Sulawesi Tengah</option>
+                        <option value="Sulawesi Tenggara" name="sltg">Sulawesi Tenggara</option>
+                        <option value="Sulawesi Utara" name="slu">Sulawesi Utara</option>
+                        <option value="Yogyakarta" name="yg">Yogyakarta</option>
+                        <option value="Sumatera Utara" name="smu">Sumatera Utara</option>
+                        <option value="Sumatera Barat" name="smb">Sumatera Barat</option>
+                        <option value="Sumatera Selatan" name="sms">Sumatera Selatan</option>
+                    </select>
+                </div>
+                
+                
+                <!-- <div class="form-group">
+                    <label>Enter your Location</label>
+                    <input type="text" class="form-control" id="start" name="start" placeholder="NEW BEVERLY HILLS JABABEKA" required>
+                </div> -->
+
+                <div class="form-group">
+                    <label>Our Branch</label>
+                    <select class="form-control" id="start" name="start">
+                        <option value="" name=""></option>
+                        <option value="NEW BEVERLY HILLS JABABEKA, JALAN MOVIELAND BLOK A2-26, DESA MEKARMUKTI, Jalan Movie Land, Mekarmukti, Bekasi Regency, West Java, Indonesia" name="nbh">New Beverly Hills Jababeka</option>
+                        <option value="President University, Mekarmukti, Bekasi Regency, West Java, Indonesia" name="pu">President University</option>
+                   </select>
+                </div>
+
+
+                <div class="form-group">
+                    <label>Enter Destination Location</label>
+                    <input type="text" class="form-control" id="end" name= "end" placeholder="President University" required>
+                </div>
+
+                
+                <input type="submit" class="btn btn-light" id="check-btn" value="Order">
+            </form>
+
+            <div id="detail">
+                <hr />
+                <h4>Order Details</h4>
+                <div class="card-custom">
+                    <table>
+                        <tr>
+                            <th>Distance</th>
+                            <th>:</th>
+                            <td id="distance" name="distance" ></td>
+                        </tr>
+                        <tr>
+                            <th>Duration</th>
+                            <th>:</th>
+                            <td id="duration" name="duration"></td>
+                        </tr>
+                        <tr>
+                            <th>Price (RP)</th>
+                            <th>:</th>
+                            <td id="price" name="price"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="map"></div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5xamR3M4TlD3J2M0HRzhwEnXmblkTw7M&libraries=places"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>

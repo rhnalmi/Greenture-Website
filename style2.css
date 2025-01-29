@@ -1,0 +1,123 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .5s cubic-bezier(.37,1.14,.26,1.24);
+}
+
+*::selection{
+    background-color: var(--green);
+    color: #fff;
+}
+
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #555;
+    padding: 1rem;
+    padding-top: 5rem;
+}
+.heading i{
+    color: #76a713;
+    font-size: 2rem;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0.1rem ;
+    width: 100%;
+    position: inherit;
+}
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+header .navbar ul li{
+    margin: 0 1rem;
+}
+header .navbar ul li a{
+    font-size: 2rem;
+    color: #000;
+    font-style: italic;
+}
+header .navbar ul li a:hover{
+    color: var(--green);
+}
+header .fa-bars{
+    font-size: 3rem;
+    color: #000;
+    cursor: pointer;
+    display: none;
+}
+
+
+@media (max-width:768px){
+    html{
+        font-size: 55%;
+    }
+    header .fa-bars{
+        display: block;
+    }
+    header .navbar{
+        position: fixed;
+        top: -100rem;
+        left: 0;
+        width: 100%;
+        border-top: 1px solid #ccc;
+        opacity: 1;
+    }
+    header .navbar ul{
+        flex-flow: column;
+        padding: 2rem 0;
+        background-color: #fff;
+    }
+    header .navbar ul li{
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+    header .navbar ul li a{
+        font-size: 3rem;
+        display: block;
+        color: #000;
+    }
+    header .nav-toggle{
+        top: 6rem;
+        opacity: 1;
+    }
+    .home .content h1{
+        font-size: 5rem;
+    }
+    .home .content p{
+        width: auto;
+    }
+    .services .box-container{
+        width: auto;
+    }
+}
+@media (max-width:768px){
+    .donate .form-container form .inputBox input,select{
+        width: 100%;
+    }
+    .donate .form-container form{
+        width: 90%;
+    }
+}
